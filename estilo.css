@@ -1,0 +1,62 @@
+@font-face {
+    font-family: BriemHand;
+    src: url(BriemHand-VariableFont_wght.ttf);
+}
+body {
+    background-color: beige;
+}
+#cuerpo {
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+#titulo {
+    font-size: 60;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    color: burlywoo;
+    border-color: black;
+    border-width: 2;
+    margin-bottom: 70px;
+
+}
+#entrada {
+    width: 300px;
+    height: 50px;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+#enviar {
+    background-color: blue;
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 20px 2px 20px 2px;
+}
+#parrafo {
+    
+    margin-top: 30px;
+    margin-left: 700px;
+    display: inline;
+    font-size: 36px;
+    font-family: BriemHand;
+    
+
+}
+#imagen {
+    display: none;
+    position: absolute;
+    height: 80vh;
+    width:100vh;
+    margin-top: 5vh;
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 200vh;
+    
+}
+#texto {
+   display: flex;
+}
